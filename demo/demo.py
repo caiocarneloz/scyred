@@ -4,6 +4,8 @@ Created on Sat Apr 11 00:04:11 2020
 
 @author: caiocarneloz
 """
+import sys
+sys.path.append('../')
 from core import scyred
 from sklearn import datasets
 from sklearn.metrics import accuracy_score
